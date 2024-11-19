@@ -1,0 +1,139 @@
+/* colors
+22577a
+38a3a5
+
+
+c7f9cc
+*/
+
+teste {
+    background-color: #22577a ;
+    background-color: #38a3a5 ;
+    background-color: #57cc99 ;
+    background-color: #80ed99 ;
+    background-color: #c7f9cc ;
+
+}
+
+mark {
+    color: white;
+    background-color: #38a3a5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: poppins;
+    margin-inline: 250px;
+    color: #444;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+header {
+    transition: all 0.5s ease;
+    text-align: center;
+    margin-top: -16px;
+    background-color: #22577a;
+    margin-inline: -250px;
+}
+
+header ul li {
+    display: inline-block;
+    padding-inline: 20px;
+    
+}   
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+    font-size: 30px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+
+footer {
+    background-color: #22577a;
+    color: white;
+    text-align: center;
+    margin-inline: -250px;
+    padding: 20px;
+}
+
+section {
+    background-color: aliceblue;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline: 30px;
+    text-indent: 12px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+    margin-bottom: 20px;
+
+    
+}
+
+figure {
+    background-color: #38a3a5 ;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+}
+
+figcaption {
+    color: white;
+    font-size: 25px;
+    
+}
+
+.botao a {
+    background-color: #80ed99;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #22577a;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-inline: 500px;
+    transition-delay: 0.1s;
+    margin-block: 40px;
+    
+    
+}
+
+.botao a:hover {
+    font-size: 35px;
+    
+}
+
+.card-conteudo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+}
